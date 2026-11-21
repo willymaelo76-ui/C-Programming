@@ -1,10 +1,9 @@
 #include<stdio.h>
-void main(){
-
+int main(){
    int i, j, a, n, number[30];
-    printf("Enter the value of N \n");
+    printf("Enter the value of N:");
 scanf("%d", &n);
-printf("Enter the numbers \n");
+printf("Enter the numbers ");
 for (i = 0; i < n; ++i)
 scanf("%d", &number[i]);
 for (i = 0; i < n; ++i)
